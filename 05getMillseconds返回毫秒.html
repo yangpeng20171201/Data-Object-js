@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<p id="demo">单击按钮显示此时时间的毫秒数：</p>
+<button onclick="myFunction()">点我</button>
+<script>
+function myFunction(){
+	var d = new Date();
+	var x = document.getElementById("demo");
+	x.innerHTML=d.getMilliseconds();
+}
+</script>
+
+</body>
+</html>
